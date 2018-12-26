@@ -162,6 +162,6 @@ public:
 	MemManager();
 	~MemManager();
 		
-};
+}; extern MemManager* m;
 
 

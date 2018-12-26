@@ -144,6 +144,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CBaseEntity.h" />
+    <ClInclude Include="Globals.h" />
     <ClInclude Include="MemManager.h" />
     <ClInclude Include="offsets.h" />
   </ItemGroup>
@@ -151,6 +153,7 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MemManager.cpp" />
     <ClCompile Include="offsets.cpp" />
+    <ClCompile Include="CBaseEntity.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
